@@ -1,6 +1,6 @@
 /* Basic Style */
 
-body {
+.body {
   background-color: #f8f8f8;
   color: #333;
   font-family: lato, sans-serif;
@@ -51,7 +51,7 @@ body {
 }
 
 .list__item,
-h3 {
+.title {
   list-style: none;
 }
 
@@ -76,8 +76,7 @@ h3 {
 
 /* Heading */
 
-h3,
-label[for="new-task"] {
+.title {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -96,7 +95,7 @@ label[for="new-task"] {
   border: 1px solid #ddd;
   background: #fff;
   border-radius: 6px;
-  font-family: laato, sans-serif;
+  font-family: lato, sans-serif;
   color: #888;
 }
 
@@ -146,7 +145,7 @@ label[for="new-task"] {
   width: 226px;
 }
 
-button.delete img {
+.delete-img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
@@ -165,15 +164,15 @@ button.delete img {
 
 /* Edit Task */
 
-ul li input[type=text] {
+.list__item .row__input.task {
   display: none;
 }
 
-.row_edit-mode .row__input.task {
+.row__edit-mode .row__input.task {
   display: inline-block;
   width: 224px;
 }
 
-.row_edit-mode .row__label  {
+.row__edit-mode .row__label  {
   display: none;
 }
