@@ -164,15 +164,15 @@
 
 /* Edit Task */
 
-ul li input[type=text] {
+.list__item .row__input.task {
   display: none;
 }
 
-.row_edit-mode .row__input.task {
+.row__edit-mode .row__input.task {
   display: inline-block;
   width: 224px;
 }
 
-.row_edit-mode .row__label  {
+.row__edit-mode .row__label  {
   display: none;
 }
